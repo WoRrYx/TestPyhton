@@ -158,9 +158,18 @@ while Golden < 10:
 # rstrip() remove spaces from end of string
 # lstrip() remove spaces from start of string
 
-a = "   Hello World   "
+a = "    Hello World    "
 print(a.strip()) # remove spaces from start and end of string
 print(a.rstrip()) # remove spaces from end of string
 print(a.lstrip()) # remove spaces from start of string
 
+b = "#@Hello World@#"
+print(a.strip('@#')) # remove #@ from start and end of string
+print(a.rstrip('@#')) # remove #@ from end of string
+print(a.lstrip('@#')) # remove #@ from start of string
 
+
+# title case () => convert first letter of each word to upper case
+
+f = "ilove 2d graphic and 3g technology and pyhthon"
+print(f.title()) # convert first letter of each word to upper case
