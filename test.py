@@ -77,3 +77,5 @@ print(user[-1])
 
 # [2:9] نقدر نطبيع جزء معين من سلسلة عن طريق 
 print (user[2:9])
+
+print (len(user))
