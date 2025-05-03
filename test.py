@@ -78,4 +78,10 @@ print(user[-1])
 # [2:9] نقدر نطبيع جزء معين من سلسلة عن طريق 
 print (user[2:9])
 
+#طباعة طول سلسلة
 print (len(user))
+
+# list المصفوفات او 
+
+players = [19 , 11 , 9 , 7 , 5 ]
+print (players[2])
