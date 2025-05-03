@@ -5,6 +5,7 @@ print ("my age 23 ")
 print ("Student at faculty of infromation tecnology")
 
 #numbers 
+"""في الارقام الاولوية للاقواس ولو مفيش اقواس الاولية معروفة للعمليات الكبيرة """
 a =8 +2 * 10 
 print ("a = " , a)
 
@@ -27,6 +28,7 @@ d1 = 5**3
 print ("d1 = " , d1) 
 
 #variables
+"""في متغيرات نقدر نخزن فيها رقم وبعدين متغير نجمعه معى رقم جديد ونقدر نخزن ارقام في زوز متغيرات ونجمعهم معى بعض ويعطوني ناتج رقم صحيح"""
 rocky = 5 
 print ("rocky = " , 5 + rocky )
 
@@ -35,4 +37,9 @@ baila + rocky
 print ("BailaRocky " , baila + rocky)
 
 #string 
+"""السترنق ضروري تكون بين  علامتين تنصيص "like this " وهكي تكون"""
+
+z = "Summer time sadnis"
+print (z) 
+
 
