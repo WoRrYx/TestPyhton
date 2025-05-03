@@ -1,19 +1,3 @@
-#اضافة عناصر في نهاية المصفوفة  
-# تعني افعل شي ما للمصفوفة .
-# append اضافة
-# list المصفوفات او 
-players = [19 , 11 , 9 , 7 , 5 ]
-print (players[2])
-
-#نقدر نغير اي عنصر في مصفوفة بالطريقة التالية 
-players [2] = 10
-print (players[2])
-
-#طباعة مصفوفة كاملة 
-print (players)
-players.append(99)
-print(players)
-    
 # strip() remove spaces from start and end of string
 # rstrip() remove spaces from end of string
 # lstrip() remove spaces from start of string
