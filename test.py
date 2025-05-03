@@ -202,3 +202,9 @@ print(q.lower())
 e = "i love pyhton and php"
 print (e.split())
 print (e.rsplit())
+
+# center 
+
+e = "Mohamed" 
+print (e.center(9)) # spaces
+print (e.center(9, "#")) # hashes
