@@ -134,3 +134,20 @@ for i in range (5):
 
 for i in range (10 , 55 , 5):
     print(i)
+
+# while loop 
+
+Golden = 1
+while Golden < 10:
+    print ("you'r the best")
+    Golden +=1
+    
+# Escape Sequences characters
+#\b => back spaec
+#\  newline => Escape New line + \
+#\\ => Escape back Slash
+#\' => Escape single qoute
+#\" => Escape double qoutes
+#\n => new line
+#
+#
