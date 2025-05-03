@@ -82,6 +82,16 @@ print (user[2:9])
 print (len(user))
 
 # list المصفوفات او 
-
 players = [19 , 11 , 9 , 7 , 5 ]
 print (players[2])
+
+#نقدر نغير اي عنصر في مصفوفة بالطريقة التالية 
+players [2] = 10
+print (players[2])
+
+#طباعة مصفوفة كاملة 
+print (players)
+
+#اضافة عناصر في نهاية المصفوفة  
+players.append(99)
+print(players)
