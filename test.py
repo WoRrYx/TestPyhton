@@ -42,4 +42,33 @@ print ("BailaRocky " , baila + rocky)
 z = "Summer time sadnis"
 print (z) 
 
+#لما نبي  ندير سترنق في سنقل كوت ولاكن الكلمة فيها اختصار زي مموضح اسفل
+#  'i don't know '
+
+#فا الحل ضروري نديرهم بين دبل كوت "" ونكتب الكلمة عادية 
+"i don't know "
+
+#وحل اخر نستخدم باك سلاش /
+
+x = 'i dont know '
+print (x)
+
+#قبل سلسلة r نقدر نخلي اي حرف بعد باك سلاش مليشي اهمية بأضافة حرف 
+print ("c:desctop\dior\home\nyouGreate")
+print (r"c:desctop\dior\home\nyouGreate")
+
+#نقدر نجمع السلاس زي الارقام 
+firstName = " Mohamed"
+firstName = firstName + " Assed" 
+
+print(firstName)
+
+#نقدر نضرب حتى السلاسل في بعض وناتج يكررلي السلسلة حسب الرقم المضروب فيه
+
+print (firstName * 3)
+
+#الوصول ل عناصر في السلسة 
+user = "mohamed assed "
+print (user[0])
+print(user[1])
 
