@@ -173,3 +173,18 @@ print(a.lstrip('@#')) # remove #@ from start of string
 
 f = "ilove 2d graphic and 3g technology and pyhthon"
 print(f.title()) # convert first letter of each word to upper case
+
+# title capitalize() => convert first letter of string to upper case
+h = "ilove 2d graphic and 3g technology and pyhthon"
+print(h.capitalize()) # convert first letter of string to upper case
+
+# zfill() => fill string with 0 to make it 10 characters long
+
+a , b ,c = 1 , 11 , 111
+print (a)
+print (b)
+print (c)
+
+print (str(a).zfill(3)) # fill string with 0 to make it 3 characters long
+print (str(b).zfill(3)) # fill string with 0 to make it 3 characters long
+print (str(c).zfill(3)) # fill string with 0 to make it 3 characters long
