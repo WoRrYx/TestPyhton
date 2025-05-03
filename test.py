@@ -188,3 +188,5 @@ print (c)
 print (str(a).zfill(3)) # fill string with 0 to make it 3 characters long
 print (str(b).zfill(3)) # fill string with 0 to make it 3 characters long
 print (str(c).zfill(3)) # fill string with 0 to make it 3 characters long
+
+# upper and lower function
