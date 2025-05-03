@@ -68,7 +68,9 @@ print(firstName)
 print (firstName * 3)
 
 #الوصول ل عناصر في السلسة 
-user = "mohamed assed "
+user = "mohamed assed"
 print (user[0])
 print(user[1])
 
+#نقدر نوصل لاخر عنصر في السلسلة عن طريق  -1
+print(user[-1])
