@@ -190,3 +190,15 @@ print (str(b).zfill(3)) # fill string with 0 to make it 3 characters long
 print (str(c).zfill(3)) # fill string with 0 to make it 3 characters long
 
 # upper and lower function
+
+r = "mohamed"
+print (r.upper())
+
+q = "DANIA"
+print(q.lower())
+
+#split rsplit 
+
+e = "i love pyhton and php"
+print (e.split())
+print (e.rsplit())
