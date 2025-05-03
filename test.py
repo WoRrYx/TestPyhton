@@ -143,11 +143,24 @@ while Golden < 10:
     Golden +=1
     
 # Escape Sequences characters
-#\b => back spaec
-#\  newline => Escape New line + \
-#\\ => Escape back Slash
-#\' => Escape single qoute
-#\" => Escape double qoutes
-#\n => new line
-#
-#
+# \b => back spaec
+# \  newline => Escape New line + \
+# \\ => Escape back Slash
+# \' => Escape single qoute
+# \" => Escape double qoutes
+# \n => new line
+# \r => carriage return
+# \t => horizontal tab 
+# \xhh => character with hex value hh
+
+
+# strip() remove spaces from start and end of string
+# rstrip() remove spaces from end of string
+# lstrip() remove spaces from start of string
+
+a = "   Hello World   "
+print(a.strip()) # remove spaces from start and end of string
+print(a.rstrip()) # remove spaces from end of string
+print(a.lstrip()) # remove spaces from start of string
+
+
