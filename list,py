@@ -21,3 +21,10 @@ print(players)
 BCAA= [1, 2, 3, 4, 5]
 print (BCAA) # [1, 2, 3, 4, 5]
 BCAA.clear() # remove all elements from list
+
+#index 
+
+e= [1,2,3,4,5,6,7,8,9]
+e.index(3,'mohamed')
+printf(e)
+print(e.index(3)) # 2
